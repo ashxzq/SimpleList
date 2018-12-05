@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SimpleList</string>
+    <string name="title_activity_add_item_page">AddItemPage</string>
+    <string name="title_activity_item_view_by_list_name">ItemViewByListName</string>
+    <string name="title_activity_item_view_by_date">ItemViewByDate</string>
+
+    <string-array name="items">
+        <item>milk</item>
+        <item>eggs</item>
+        <item>bread</item>
+    </string-array>
+
+    <string-array name="prices">
+        <item>0.99</item>
+        <item>1.99</item>
+        <item>2.99</item>
+    </string-array>
+
+    <string-array name="Locations">
+        <item>walgreens</item>
+        <item>walmart</item>
+        <item>county</item>
+    </string-array>
+</resources>
