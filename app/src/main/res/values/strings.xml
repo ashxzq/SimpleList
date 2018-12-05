@@ -8,17 +8,44 @@
         <item>milk</item>
         <item>eggs</item>
         <item>bread</item>
+        <item>bread</item>
+        <item>bread</item>
+        <item>bread</item>
+        <item>bread</item>
+        <item>bread</item>
+        <item>bread</item>
+        <item>bread</item>
+        <item>bread</item>
+        <item>bread</item>
     </string-array>
 
     <string-array name="prices">
         <item>0.99</item>
         <item>1.99</item>
         <item>2.99</item>
+        <item>2.99</item>
+        <item>2.99</item>
+        <item>2.99</item>
+        <item>2.99</item>
+        <item>2.99</item>
+        <item>2.99</item>
+        <item>2.99</item>
+        <item>2.99</item>
+        <item>2.99</item>
     </string-array>
 
     <string-array name="Locations">
         <item>walgreens</item>
         <item>walmart</item>
+        <item>county</item>
+        <item>county</item>
+        <item>county</item>
+        <item>county</item>
+        <item>county</item>
+        <item>county</item>
+        <item>county</item>
+        <item>county</item>
+        <item>county</item>
         <item>county</item>
     </string-array>
 </resources>

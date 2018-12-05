@@ -25,13 +25,13 @@ public class MainPage extends AppCompatActivity {
             }
         });
 
-        //Attempt to View Items already added
+        //Attempt to View Lists already added
         Button ToViewItem = (Button)findViewById(R.id.ToViewItem);
         ToViewItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent SeeWaysToViewItems = new Intent(getApplicationContext(), WaysToViewItems.class);
-                startActivity(SeeWaysToViewItems);
+                Intent ViewItems = new Intent(getApplicationContext(), myListView.class);
+                startActivity(ViewItems);
             }
         });
 

@@ -17,18 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddItemPage" />
-        <activity android:name=".WaysToViewItems" />
-        <activity
-            android:name=".ItemViewByListName"
-            android:label="@string/title_activity_item_view_by_list_name"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ItemViewByDate"
-            android:label="@string/title_activity_item_view_by_date"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ItemViewByLocation" />
-        <activity android:name=".ItemViewByPrice" />
-        <activity android:name=".myListView"></activity>
+        <activity android:name=".myListView" />
     </application>
 
 </manifest>
