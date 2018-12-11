@@ -15,6 +15,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 
 public class myListView extends AppCompatActivity {
@@ -58,7 +59,9 @@ public class myListView extends AppCompatActivity {
             for (int i = 0; i < productList.size(); i++) {
                 total += Double.parseDouble(productList.get(i).price);
             }
-            Total.setText(Double.toString(total));
+            BigDecimal shown = new BigDecimal(total);
+            shown = shown.setScale(2, BigDecimal.ROUND_HALF_UP);
+            Total.setText(shown.toString());
             ProductListAdapter adapter = new ProductListAdapter(this, R.layout.listview_detail, productList);
             myListView.setAdapter(adapter);
         }
