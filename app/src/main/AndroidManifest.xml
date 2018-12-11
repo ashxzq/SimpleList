@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".AddItemPage" />
         <activity android:name=".myListView" />
+        <activity android:name=".searchPage"></activity>
     </application>
 
 </manifest>

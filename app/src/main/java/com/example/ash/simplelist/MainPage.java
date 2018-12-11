@@ -1,6 +1,7 @@
 package com.example.ash.simplelist;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +15,7 @@ public class MainPage extends AppCompatActivity {
         setContentView(R.layout.activity_main_page);
 
         //Attempt to Add an Item to List
-        Button ToAddItem = (Button)findViewById(R.id.ToAddItem);
+        Button ToAddItem = (Button) findViewById(R.id.ToAddItem);
         ToAddItem.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -22,6 +23,15 @@ public class MainPage extends AppCompatActivity {
                 Intent AddANewItem = new Intent(getApplicationContext(), AddItemPage.class);
                 // show how to pass information to another activity
                 startActivity(AddANewItem);
+            }
+        });
+
+        Button search = (Button) findViewById(R.id.searchItems);
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), searchPage.class);
+                startActivity(intent);
             }
         });
 
@@ -34,6 +44,5 @@ public class MainPage extends AppCompatActivity {
                 startActivity(ViewItems);
             }
         });
-
     }
 }
